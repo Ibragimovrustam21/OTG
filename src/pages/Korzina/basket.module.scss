@@ -1,0 +1,28 @@
+.wrapper {
+  .products_in_basket {
+    background-color: #fff;
+    border-radius: 10px;
+
+    .card_title {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+
+  .buy_products {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 20px !important;
+
+    .card_title {
+      margin-top: 10px;
+    }
+
+    .btn_box {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

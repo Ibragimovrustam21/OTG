@@ -1,0 +1,145 @@
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  .comment_box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid #ccc;
+
+    .comment_left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .avatar {
+        background-color: rgb(236, 162, 24);
+      }
+
+      h3 {
+        margin: 5px 0;
+      }
+
+      p {
+        color: #444;
+        font-size: 14px;
+      }
+    }
+
+    .comment_right {
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .wrapper {
+    width: 100%;
+
+    .comment_box {
+      padding: 10px;
+
+      .comment_left {
+        h3 {
+          text-align: center;
+          font-size: 14px;
+        }
+
+        p {
+          color: #444;
+          font-size: 12px;
+        }
+      }
+
+      .comment_right {
+        p {
+          font-weight: bold;
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .wrapper {
+    width: 100%;
+    .comment_box {
+      padding: 20px;
+      .comment_left {
+        h3 {
+          text-align: center;
+          font-size: 14px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .comment_right {
+        p {
+          font-weight: bold;
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .wrapper {
+    .comment_box {
+      padding: 20px;
+
+      .comment_left {
+        h3 {
+          text-align: center;
+          font-size: 16px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .comment_right {
+        p {
+          font-weight: bold;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .wrapper {
+    .comment_box {
+      padding: 20px;
+
+      .comment_left {
+        h3 {
+          text-align: center;
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .comment_right {
+        p {
+          font-weight: bold;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

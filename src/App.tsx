@@ -1,26 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import * as Layouts from "./layouts";
+import { RootState } from './store'
+import { useSelector } from 'react-redux'
+import { Navigate, Route, Routes } from 'react-router';
+import { privateRoutes, publicRoutes } from './routes/routes';
+// lightgallery scss
+import 'lightgallery/scss/lightgallery.scss';
+import 'lightgallery/scss/lg-zoom.scss';
 
-function App() {
+// carousel css
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+export const App = () => {
+  const count = useSelector((state: RootState) => state.shopping)
+
+  if (!count.isAuthenticated) {
+    return (
+      <BrowserRouter>
+        <Layouts.Auth>
+          <Routes>
+            {publicRoutes.map((route, index) => {
+              return (
+                <Route
+                  key={index}
+                  path={route.path}
+                  element={<route.component />}
+                />
+              )
+            })}
+            <Route path="*" element={<Navigate to='/sign-in' />} />
+          </Routes>
+        </Layouts.Auth>
+      </BrowserRouter>
+    )
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Layouts.Base>
+        <Routes>
+          {privateRoutes.map((route, index) => {
+            return (
+              <Route
+                key={index}
+                path={route.path}
+                element={<route.component />}
+              />
+            )
+          })}
+          <Route path="*" element={<Navigate to='/main' />} />
+        </Routes>
+      </Layouts.Base>
+    </BrowserRouter>
+  )
 }
-
-export default App;

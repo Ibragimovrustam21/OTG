@@ -1,0 +1,47 @@
+.page__header {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ant-page-header {
+  padding: 0 !important;
+}
+
+
+
+@media (min-width:0) and (max-width:446.9px) {
+  .ant-page-header-heading-title {
+    font-size: 20px !important;
+  }
+
+  .ant-page-header-back {
+    margin-right: 8px !important;
+  }
+
+  .ant-breadcrumb {
+    display: none;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .ant-page-header-heading-title {
+    font-size: 20px !important;
+  }
+
+  .ant-page-header-back {
+    margin-right: 8px !important;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .ant-page-header-heading-title {
+    font-size: 22px !important;
+  }
+
+  .ant-page-header-back {
+    margin-right: 10px !important;
+  }
+}

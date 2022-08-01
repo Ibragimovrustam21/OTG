@@ -1,0 +1,93 @@
+.product_mini_card {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+
+  img {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  a {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 15px;
+    color: #000;
+    text-transform: capitalize;
+
+    &:hover {
+      color: #444;
+    }
+
+    &:hover svg {
+      opacity: 1;
+      transition: all 0.2s ease;
+      transform: translateX(20%);
+    }
+  }
+
+  svg {
+    opacity: 0;
+    transform: translateX(-70%);
+    transition: all 0.1s ease;
+  }
+}
+
+.product_mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  transition: all 0.5s linear;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .product_mini_card {
+    height: 350px;
+
+    a {
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    svg {
+      width: 10px;
+    }
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .product_mini_card {
+    height:300px;
+
+    a {
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    svg {
+      width: 10px;
+    }
+  }
+
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .product_mini_card {
+    height: 450px;
+
+    a {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+}

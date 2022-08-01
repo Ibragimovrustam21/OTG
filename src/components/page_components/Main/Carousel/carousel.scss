@@ -1,0 +1,75 @@
+.carousel__wrapper {
+  width: 100%;
+  height: 500px;
+
+  .slick-slider {
+    height: 100%;
+    position: relative;
+  }
+
+  .slick-list,
+  .slick-slide {
+    height: 100%;
+
+    div {
+      height: 100%;
+    }
+  }
+
+  .carousel__item {
+    height: 100% !important;
+
+    .carousel__item--child {
+      height: 100%;
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      .carousel__img {
+        position: absolute;
+        transform: scale(0.6);
+        z-index: -1;
+      }
+
+      .carousel__title,
+      .carousel__text {
+        color: #fff;
+        z-index: 10;
+
+      }
+
+      .carousel__btn {
+        z-index: 10;
+      }
+    }
+  }
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .carousel__item {
+    .carousel__img {
+      transform: scale(0.5) !important;
+    }
+
+    .carousel__title,
+    .carousel__text {
+      font-size: 16px;
+
+    }
+  }
+}
+@media (min-width:447px) and (max-width:768.9px){
+  .carousel__item {
+    .carousel__img {
+      transform: scale(0.5) !important;
+    }
+
+    .carousel__title,
+    .carousel__text {
+      font-size: 18px;
+
+    }
+  }
+}

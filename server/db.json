@@ -1,0 +1,280 @@
+{
+  "categories": [
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "images": [
+        {
+          "id": "Gift card",
+          "product_name": "Gift card",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/12/Atelier-gift_card_100.jpg",
+          "rate": 3,
+          "cost": 100,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Downloadable",
+            "Gifts"
+          ],
+          "sku": "135455"
+        },
+        {
+          "id": "Canada Terrazzo Scarf",
+          "product_name": "Canada Terrazzo Scarf",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/acne-scarf-leo01alt.jpg",
+          "rate": 2,
+          "cost": 140,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Accessories",
+            "Patterned",
+            "Wool"
+          ],
+          "sku": "614930"
+        },
+        {
+          "id": "Biblio Sunglasses",
+          "product_name": "Biblio Sunglasses",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/kaibosh-brown01alt.jpg",
+          "rate": 4,
+          "cost": 150,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Accessories",
+            " Sunglasses",
+            "Tortoiseshell"
+          ],
+          "sku": "614930"
+        },
+        {
+          "id": "Plain Backpack",
+          "product_name": "Plain Backpack",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/plain_backpack_1b.jpg",
+          "rate": 4,
+          "cost": 305,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Accessories",
+            "Backpack"
+          ],
+          "sku": "67890"
+        }
+      ]
+    },
+    {
+      "id": "footwear",
+      "name": "Footwears",
+      "images": [
+        {
+          "id": "Slip-Ons",
+          "product_name": "Slip-Ons",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/cp-slipper-grey0001_1alt.jpg",
+          "rate": 3,
+          "cost": 205,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Footwear",
+            "Slip-Ons",
+            "Suede"
+          ],
+          "sku": "681988"
+        },
+        {
+          "id": "Achilles Mid",
+          "product_name": "Achilles Mid",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/cp-high-suade-yellowish0001_1alt.jpg",
+          "rate": 3,
+          "cost": 255,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Footwear",
+            "Hi-Tops",
+            "Sneakers",
+            "Suede"
+          ],
+          "sku": "622299"
+        },
+        {
+          "id": "Achilles Low",
+          "product_name": "Achilles Low",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/cp-suade-grey0001_2alt.jpg",
+          "rate": 3,
+          "cost": 278,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Footwear",
+            "Low",
+            "Sneakers",
+            "Suede"
+          ],
+          "sku": "677363"
+        },
+        {
+          "id": "Armston Ray",
+          "product_name": "Achilles Low",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2015/01/ap_boots.jpg",
+          "rate": 4,
+          "cost": 425,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Footwear",
+            "Boots",
+            "Leather"
+          ],
+          "sku": "677363"
+        }
+      ]
+    },
+    {
+      "id": "shirts",
+      "name": "Shirts",
+      "images": [
+        {
+          "id": "Cloyd Shirt",
+          "product_name": "Cloyd Shirt",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/1_11_10alt.jpg",
+          "rate": 4,
+          "cost": 87,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Shirting",
+            "Cotton"
+          ],
+          "sku": "600127"
+        },
+        {
+          "id": "Checkered Army Shirt",
+          "product_name": "Checkered Army Shirt",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/apc-shirt-checked01alt.jpg",
+          "rate": 3,
+          "cost": 165,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Shirting",
+            "Cotton"
+          ],
+          "sku": "622299"
+        },
+        {
+          "id": "Poplin Shirt",
+          "product_name": "Poplin Shirt",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/mm-shirt-brown01alt.jpg",
+          "rate": 3,
+          "cost": 120,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Shirting",
+            "Cotton",
+            "Muted"
+          ],
+          "sku": "622299"
+        },
+        {
+          "id": "Sterling Shirt",
+          "product_name": "Sterling Shirt",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/raf-shirt-spots-black0001alt.jpg",
+          "rate": 4,
+          "cost": 325,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Shirting",
+            "Cotton",
+            "Muted"
+          ],
+          "sku": "677363"
+        }
+      ]
+    },
+    {
+      "id": "sweaters",
+      "name": "Sweaters",
+      "images": [
+        {
+          "id": "Turtleneck Sweater",
+          "product_name": "Turtleneck Sweater",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/mm-turtlenec-green01alt.jpg",
+          "rate": 4,
+          "cost": 300,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Sweaters",
+            "Turtleneck",
+            "Wool"
+          ],
+          "sku": "612444"
+        },
+        {
+          "id": "Turtleneck Sweater Grey",
+          "product_name": "Turtleneck Sweater Grey",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/ami-turtle-grey001alt.jpg",
+          "rate": 4,
+          "cost": 187,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Sweaters",
+            "Turtleneck",
+            "Wool"
+          ],
+          "sku": "622299"
+        },
+        {
+          "id": "Elbow Sweater",
+          "product_name": "Elbow Sweater",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/mm-sweat-knitted-grey01alt.jpg",
+          "rate": 5,
+          "cost": 400,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Sweaters",
+            "Turtleneck",
+            " Elbow Patch"
+          ],
+          "sku": "622299"
+        },
+        {
+          "id": "Roundneck Sweater",
+          "product_name": "Roundneck Sweater",
+          "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/11/apc-knitted-brown01alt.jpg",
+          "rate": 2,
+          "cost": 95,
+          "description": "Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+          "tags": [
+            "Sweaters",
+            "Wool"
+          ],
+          "sku": "677363"
+        }
+      ]
+    }
+  ],
+  "basket": [],
+  "shop": [
+    {
+      "id": "Armston Ray",
+      "img": "http://atelier.swiftideas.com/wp-content/uploads/2015/01/ap_boots.jpg",
+      "product_name": "Achilles Low",
+      "rate": 4,
+      "cost": 425,
+      "count": 12,
+      "overallCharge": 5100
+    },
+    {
+      "id": "Gift card",
+      "img": "http://atelier.swiftideas.com/wp-content/uploads/2014/12/Atelier-gift_card_100.jpg",
+      "product_name": "Gift card",
+      "rate": 3,
+      "cost": 100,
+      "count": 1,
+      "overallCharge": 100
+    }
+  ],
+  "comments": [
+    {
+      "text": "Assalomu alaykum",
+      "id": 1
+    },
+    {
+      "text": "OTG",
+      "id": 2
+    }
+  ]
+}
